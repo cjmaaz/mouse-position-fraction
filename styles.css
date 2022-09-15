@@ -1,0 +1,31 @@
+body {
+  background-color: #b6d4aa;
+  margin: 0;
+}
+.block:nth-of-type(1) {
+  background-color: #006064;
+  width: 100px;
+  height: calc(100vh - 100px);
+}
+.block:nth-of-type(2) {
+  background-color: #006064;
+  width: 100px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.block:nth-of-type(3) {
+  background-color: #006064;
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  top: 0;
+}
+.block:nth-of-type(4) {
+  background-color: #006064;
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  top: calc(100vh - 100px);
+}
